@@ -42,8 +42,6 @@ namespace SpritePaddingMaker
                     using var subImagePixels = subImage.GetPixels();
 
                     ExtendEdge(subImagePixels, subImage.Width, subImage.Height);
-                    subImage.Write($"z{x}x{y}.png");
-
                     result.Composite(subImage, x * subImage.Width, y * subImage.Height, CompositeOperator.SrcOver);
                 }
             }

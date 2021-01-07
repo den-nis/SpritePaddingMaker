@@ -2,10 +2,10 @@
 {
     public class PaddingSettings
     {
-        public int TileX { get; set; } = 32;
-        public int TileY { get; set; } = 32;
+        public int TileX { get; set; }
+        public int TileY { get; set; }
 
-        public int PaddingX { get; set; } = 1;
-        public int PaddingY { get; set; } = 1;
+        public int PaddingX { get; set; }
+        public int PaddingY { get; set; }
     }
 }
