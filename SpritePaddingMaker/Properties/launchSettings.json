@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SpritePaddingMaker": {
+      "commandName": "Project",
+      "commandLineArgs": "Example.png 32x128 10x10"
+    }
+  }
+}
